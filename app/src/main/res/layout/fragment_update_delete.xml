@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateDelete">
+
+    <EditText
+        android:id="@+id/etEnterNametoUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SEARCH BY NAME"
+        />
+
+    <Button
+        android:id="@+id/btnSearchforEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tvEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvEditBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvEditWage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvEditHireDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imgEditImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDeleteEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="DELETE EMPLOYEE FROM DATABASE"/>
+    <Button
+        android:id="@+id/btnUpdateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/frmUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvEmployeeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etUpdateEmployeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMPLOYEE NAME"/>
+
+        <EditText
+            android:id="@+id/etUpdateEmployeeBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="BIRTHDAY"/>
+
+        <EditText
+            android:id="@+id/etUpdateEmployeeWage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="WAGE"/>
+
+        <EditText
+            android:id="@+id/etUpdateEmployeeHireDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="HIRE DATE"/>
+
+        <EditText
+            android:id="@+id/etUpdateEmployeeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IMAGE URL"/>
+
+        <Button
+            android:id="@+id/btnUpdateInDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+
+
+</FrameLayout>
